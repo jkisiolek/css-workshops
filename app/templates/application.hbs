@@ -1,5 +1,147 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<header class="page-header">
+  <a href="">Golden</a>
+  <nav>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Services</a></li>
+      <li><a href="">Portfolio</a></li>
+      <li><a href="">About</a></li>
+    </ul>
+  </nav>
+</header>
 
-{{outlet}}
+<div class="hero">
+  <div class="container">
+    <h1>Welcome to our studio</h1>
+    <h2>It's nice to meet you</h2>
+    <button>Tell me more</button>
+  </div>
+</div>
+
+<section class="services">
+  <div class="container">
+    <h2 class="heading">Services</h2>
+    <h3 class="subheading">Lorem ipsum sit dolor</h3>
+    <div class="services__list">
+      <div class="service">
+        <i class="fa fa-shopping-basket" />
+        <h4 class="service__name">E-commerce</h4>
+        <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="service">
+        <i class="fa fa-laptop" />
+        <h4 class="service__name">Responsive web</h4>
+        <p class="service__text">Nullam nec dolor est. Sed eget lectus eros.</p>
+      </div>
+      <div class="service">
+        <i class="fa fa-lock" />
+        <h4 class="service__name">Web security</h4>
+        <p class="service__text">Vestibulum at urna eu arcu vulputate commodo id vel massa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio">
+  <div class="container">
+    <h2 class="heading">Services</h2>
+    <h3 class="subheading">Lorem ipsum sit dolor</h3>
+    <div class="portfolio-list">
+      <div class="portfolio__item">
+        <img src="https://www.placecage.com/150/150" alt="" class="portfolio__cover">
+        <div class="porfolio__title">Ebony & Ivory</div>
+        <div class="portfolio__category">Branding</div>
+      </div>
+      <div class="portfolio__item">
+        <img src="https://www.placecage.com/c/150/150" alt="" class="portfolio__cover">
+        <div class="porfolio__title">Smart Stationary</div>
+        <div class="portfolio__category">Print design</div>
+      </div>
+      <div class="portfolio__item">
+        <img src="https://www.placecage.com/g/150/150" alt="" class="portfolio__cover">
+        <div class="porfolio__title">Clever Poster</div>
+        <div class="portfolio__category">Print Design</div>
+      </div>
+      <div class="portfolio__item">
+        <img src="https://www.placecage.com/c/150/150" alt="" class="portfolio__cover">
+        <div class="porfolio__title">Vinyl Record</div>
+        <div class="portfolio__category">Product Mock-up</div>
+      </div>
+      <div class="portfolio__item">
+        <img src="https://www.placecage.com/150/150" alt="" class="portfolio__cover">
+        <div class="porfolio__title">Treehouse Template</div>
+        <div class="portfolio__category">Web Design</div>
+      </div>
+      <div class="portfolio__item">
+        <img src="https://www.placecage.com/g/150/150" alt="" class="portfolio__cover">
+        <div class="porfolio__title">Burned Logo</div>
+        <div class="portfolio__category">Branding</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team">
+  <div class="container">
+    <h2 class="heading">Our amazing team</h2>
+    <h3 class="subheading">Lorem ipsum sit dolor</h3>
+    <div class="team-list">
+      <div class="team__member">
+        <img src="https://www.placecage.com/100/100" alt="">
+        <p class="team__name">Kimberly Thompson</p>
+        <p class="team_position">Marketer</p>
+        <div class="social-icons">
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-pinterest"></i>
+        </div>
+      </div>
+      <div class="team__member">
+        <img src="https://www.placecage.com/g/100/100" alt="">
+        <p class="team__name">Ricco Massimo</p>
+        <p class="team_position">Coder</p>
+        <div class="social-icons">
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-google-plus"></i>
+        </div>
+      </div>
+      <div class="team__member">
+        <img src="https://www.placecage.com/c/100/100" alt="">
+        <p class="team__name">Uku Mason</p>
+        <p class="team_position">Graphic Designer</p>
+        <div class="social-icons">
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-pinterest"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-us">
+  <h2 class="heading heading--light">Our amazing team</h2>
+  <h3 class="subheading subheading--light">Lorem ipsum sit dolor</h3>
+  <form action="">
+    <div class="form__column">
+      <div class="form__section">
+        <input type="text" placeholder="Your Name*">
+      </div>
+      <div class="form__section">
+        <input type="text" placeholder="Your E-mail*">
+      </div>
+      <div class="form__section">
+        <input type="text" placeholder="Subject">
+      </div>
+    </div>
+    <div class="form-column">
+      <div class="form__section">
+        <textarea placeholder="Your message*"></textarea>
+      </div>
+    </div>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+
